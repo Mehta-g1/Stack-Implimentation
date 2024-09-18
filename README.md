@@ -10,6 +10,9 @@ step-3: Check for errors and fix if necessary. This code will work perfectly.
 
 
 Stack Implimentation using array in c++. 
+
+Run this code and get following menu.
+       
         ==== MENU ====
 1.      PUSH
 2.      POP
