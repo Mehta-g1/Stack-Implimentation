@@ -11,7 +11,7 @@ class stack{
 	}
 	void push(int val){
 		i++;
-		if(i>5){
+		if(i>10){
 			cout<<"Stack is Overflow !"<<endl;
 			i--;
 			return;
@@ -19,6 +19,10 @@ class stack{
 		a[i]=val;
 	}
 	void pop(){
+		if(i<0){
+			cout<<"Stack is in underflow or Empty !"<<endl;
+			return;
+		}
 		i--;
 	}
 	int peek(){
